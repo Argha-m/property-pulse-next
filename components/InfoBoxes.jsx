@@ -3,9 +3,9 @@ import InfoBox from "./InfoBox";
 
 const InfoBoxes = () => {
   return (
-    <section>
-      <div className="container lg:container-lg m-auto">
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-4 p-4 rounded-lg">
+    <section className="pt-6 pb-8">
+      <div className="container mx-auto max-w-7xl">
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-4 py-4 rounded-lg">
           <InfoBox
             title="For Renters"
             buttonText="Browse Properties"
